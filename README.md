@@ -1,3 +1,8 @@
+## Link to App
+
+You can visit the app by clicking this link: [Access App](https://reluviaris-accordion.herokuapp.com/).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
