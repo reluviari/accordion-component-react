@@ -1,14 +1,73 @@
+/*----------------------------------------------------------------------------
+                Style for Accordion Component starts
+-----------------------------------------------------------------------------*/
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .accordion-container {
+    margin: auto;
+    width: 700px;
+  }
+  
+  .accordion-container h1 {
+    color: rgba(0, 0, 0, 0.48);
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .accordion-container .error {
+    margin-top: 15%;
+  }
+  
+  .parent-accordion {
+    width: 100%;
+    border: solid 1.5px rgba(0, 0, 0, 0.09);
+  }
+  
+  .accordion-heading {
+    padding: 10px 10px;
+    background-color: rgba(226, 226, 226, 0.33);
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    color: #6f6e6e;
+    font-family: sans-serif;
+    transition: background-color .9s;
+  }
+  
+  .clicked {
+    background-color: rgba(0, 0, 0, 0.78);
+    color: #fff;
+  }
+  
+  .accordion-content {
+    background-color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    overflow-y: hidden;
+    transition: height .5s, padding .5s;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+  }
+  
+  .accordion-open {
+    height: 75px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  .accordion-close {
+    height: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+  
+  
+  /*----------------------------------------------------------------------------
+                  Style for Accordion Component ends
+  -----------------------------------------------------------------------------*/
