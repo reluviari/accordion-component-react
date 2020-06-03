@@ -1,5 +1,3 @@
-# 
-
 <h1 align="center">
   <strong>Accordion Component - React</strong>
 </h1> 
